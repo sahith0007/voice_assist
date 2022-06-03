@@ -59,9 +59,6 @@ if __name__ == '__main__':
         elif "open photos" in query:
             speak("opening photos")
             webbrowser.open(r"C:\Users\sahit\OneDrive\Pictures")
-        elif "ganpati" in query:
-            speak("jai ganapathi")
-            webbrowser.open(r"C:\Users\sahit\Music\Sukhakarta_Dukhaharta_Shankar_Mahadevan.mp3")
         elif "music" in query:
             speak("it's on me")
             webbrowser.open("https://youtu.be/cml8Qo74zNQ")
